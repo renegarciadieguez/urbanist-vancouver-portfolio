@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-
 <br />
 {% for post in paginator.posts %}
-  {{ post.date }} : {{ post.title }} : {{ relative_url }} : {{ "/" | relative_url }} : {{ post.url }}<br />
+  <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br />
 {% endfor %}
 <br />

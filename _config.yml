@@ -4,5 +4,4 @@ meta_description: "Urbanist Vancouver portfolio and blog"
 
 plugins: [jekyll-paginate]
 paginate: 20
-paginate_path: "/blog/page:num/"
 author: "Rene Garcia"
