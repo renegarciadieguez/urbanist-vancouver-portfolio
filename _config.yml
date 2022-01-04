@@ -2,19 +2,8 @@ name: Urbanist Vancouver
 description: Urbanist Vancouver portfolio and blog
 meta_description: "Urbanist Vancouver portfolio and blog"
 
-markdown: kramdown
-highlighter: rouge
-
 plugins: [jekyll-paginate]
 paginate: 20
 domain_name: 'http://renegarciadieguez.github.io'
 url: 'http://renegarciadieguez.github.io/urbanist-vancouver-portfolio/'
 author: 'Rene Garcia'
-permalink: /:year/:title/
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
