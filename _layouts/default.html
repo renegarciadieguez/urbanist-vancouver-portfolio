@@ -22,12 +22,6 @@
     {{ content }}
   </section>
 
-  <br />
-  {% for post in paginator.posts %}
-    {{ post.date }} : {{ post.title }} : {{ "/" | relative_url }}{{ post.url }}<br />
-  {% endfor %}
-  <br />
-
   {% include footer.html %}
 
 </body>
