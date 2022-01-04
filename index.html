@@ -3,3 +3,7 @@ carousel: true
 ---
 
 {% include footer.html %}
+<br />
+{% for post in paginator.posts %}
+  {{ post.title }}: {{ "/" | relative_url }}{{ post.url }}<br />
+{% endfor %}
