@@ -22,5 +22,10 @@
     {{ content }}
   </section>
 
+  <br />
+  {% for post in paginator.posts %}
+    {{ post.title }}: {{ "/" | relative_url }}{{ post.url }}<br />
+  {% endfor %}
+
 </body>
 </html>
