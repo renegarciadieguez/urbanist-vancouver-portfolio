@@ -1,9 +1,8 @@
-name: Urbanist Vancouver
-description: Urbanist Vancouver portfolio and blog
+name: "Urbanist Vancouver"
+description: "Urbanist Vancouver portfolio and blog"
 meta_description: "Urbanist Vancouver portfolio and blog"
 
 plugins: [jekyll-paginate]
 paginate: 20
-domain_name: 'http://renegarciadieguez.github.io'
-url: 'http://renegarciadieguez.github.io/urbanist-vancouver-portfolio/'
-author: 'Rene Garcia'
+paginate_path: "/blog/page:num/"
+author: "Rene Garcia"
