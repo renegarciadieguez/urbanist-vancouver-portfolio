@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.skip-nav-link {
+  position: absolute;
+  transform: translateY(-120%);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0 0 0.25rem 0.25rem;
+  left: 0.5rem;
+  transition: transform 325ms ease-in;
+}
+.skip-nav-link:focus {
+  transform: translate(0);
+}
